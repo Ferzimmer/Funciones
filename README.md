@@ -1,4 +1,3 @@
-# Funciones
-funciones trigonométricas
+# Proyecto
+números al azar
 
-Página para hacer funciones trigonométricas
