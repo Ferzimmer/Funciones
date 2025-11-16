@@ -1,0 +1,23 @@
+<h1>Generador de Números</h1>
+
+  <label>Mínimo: <input type="number" id="min" value="1"></label>
+  <label>Máximo: <input type="number" id="max" value="100"></label>
+  <br>
+  <button onclick="generar()">Generar</button>
+
+  <div id="resultado">-</div>
+
+  <script>
+    function generar() {
+      const min = Number(document.getElementById("min").value);
+      const max = Number(document.getElementById("max").value);
+
+      
+
+      const num = Math.floor(Math.random() * (max - min + 1)) + min;
+      document.getElementById("resultado").textContent = num;
+    }
+  </script>
+
+</body>
+</html>
